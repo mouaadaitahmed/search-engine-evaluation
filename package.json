@@ -1,0 +1,15 @@
+{
+  "name": "search-engine-evaluation",
+  "version": "1.0.0",
+  "description": "Evaluation d'un moteur de recherche MongoDB",
+  "main": "scripts/evaluate.js",
+  "type": "module",
+  "scripts": {
+    "import": "node scripts/importCorpus.js",
+    "search": "node scripts/search.js",
+    "evaluate": "node scripts/evaluate.js"
+  },
+  "dependencies": {
+    "mongodb": "^6.10.0"
+  }
+}
